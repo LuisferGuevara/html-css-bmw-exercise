@@ -1,0 +1,80 @@
+/*FOOTER*/
+/*PRIMARY FOOTER*/
+.primary-footer {
+  background-color: rgb(228, 222, 222);
+  margin-top: 80px;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  margin-bottom: 20px;
+}
+.container-footer {
+background-color: red;
+  margin: 140px auto;
+  border-top: 1px solid lightslategrey;
+  padding-top: 45px;
+  display: flex;
+  justify-content: space-between;
+
+  width: 70%;
+}
+.info-box {
+  background-color: gold;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 25%;
+  border: 1px solid;
+}
+.info-box ul:first-of-type {
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-starts;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.info-box h4 {
+  background-color: hotpink;
+  font-size: 1.3em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin: 0;
+}
+.info-box li {
+  background-color: lightcoral;
+  list-style: none;
+  padding:  0;
+  margin: 0;
+}
+.info-box a {
+  text-decoration: none;
+  color: grey;
+  font-weight: 600;
+  font-size: 1em;
+  letter-spacing: 1px;
+}
+/*SECONDARY FOOTER*/
+.secondary-footer {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+.secondary-footer a {
+  text-decoration: none;
+}
+#brand-copyrigth {
+  color: #000;
+}
+.policies li {
+  list-style: none;
+  display: inline;
+  padding-right: 10px;
+}
+.policies a {
+  color: #1c69d4;
+}

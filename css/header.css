@@ -1,0 +1,107 @@
+/*BASE*/
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+body{
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+
+/*HEADER*/
+header {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  background-image: url(/assets/images/bg-car-for-headerr.jpeg);
+  background-position: center;
+  background-size:cover;
+  z-index: 1;
+  position: relative;
+}
+.primary-nav {
+  height: 100px;
+  width: 75%; 
+  font-size: 14px;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid whitesmoke;
+}
+.primary-nav-tabs {
+  width: 100%; 
+  padding-left: 20px;
+}
+.primary-nav-tabs li {
+  padding-right: 40px;
+  display: inline;
+  font-size: 1.3em;
+}
+.primary-nav-tabs a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.primary-nav-icons {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  font-size: 1.3em;
+}
+.primary-nav-icons a {
+  color: #fff;
+}
+.bmw-logo {
+  background-color: hotpink;
+  height: 120px;
+  width: 85px;
+  height: 100px;
+  margin-left: 30px;
+}
+.bmw-logo img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero {
+  height: 150px;
+  width: 56vw;
+  position: absolute;
+  bottom: 95px;
+  left: 5%;
+  right: 0;
+}
+.hero-text {
+  bottom: 20px;
+  min-height: 150px;
+  display: flex;
+  width: 990px;
+  height: 145px;
+  flex-direction: column;
+  color: white;
+  position: absolute;
+}
+.hero-text h1 {
+  font-size: 2.5em;
+}
+.hero-text p {
+  font-size: 2em;
+  font-weight: 600;
+}
+.hero-text a {
+  font-size: 1.2em;
+  padding: 10px;
+  width: 280px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #1d68d5;
+}
