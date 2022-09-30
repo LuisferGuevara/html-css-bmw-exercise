@@ -9,7 +9,6 @@
   margin-bottom: 20px;
 }
 .container-footer {
-background-color: red;
   margin: 140px auto;
   border-top: 1px solid lightslategrey;
   padding-top: 45px;
@@ -19,34 +18,30 @@ background-color: red;
   width: 70%;
 }
 .info-box {
-  background-color: gold;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding-left: 20px;
   width: 25%;
-  border: 1px solid;
 }
-.info-box ul:first-of-type {
-  background-color: green;
+.info-box ul {
   display: flex;
   flex-direction: column;
-  justify-content: flex-starts;
-  align-self: center;
+  padding: 0;
   margin-top: 20px;
 }
 
 .info-box h4 {
-  background-color: hotpink;
+  display: flex;
+  align-self: flex-start;
   font-size: 1.3em;
-  margin-bottom: 0;
-  padding-bottom: 0;
-  margin: 0;
+  margin: 0
 }
 .info-box li {
-  background-color: lightcoral;
+  display: flex;
   list-style: none;
-  padding:  0;
-  margin: 0;
+  padding-left:  0;
+  margin-left: 0;
 }
 .info-box a {
   text-decoration: none;
@@ -61,8 +56,9 @@ background-color: red;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 20px;
-  font-size: 12px;
+  font-size: 1em;
 }
 .secondary-footer a {
   text-decoration: none;
