@@ -17,7 +17,8 @@ header {
   height: 700px;
   display: flex;
   flex-wrap: wrap;
-  background-image: url(/assets/images/bg-car-for-headerr.jpeg);
+  background-color: lightblue;
+  background-image: url(../assets/images/bg-car-for-headerr.jpeg);
   background-position: center;
   background-size:cover;
   position: relative;
